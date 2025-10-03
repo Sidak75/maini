@@ -1,5 +1,3 @@
-// import Navbar from '../components/Navbar.jsx';
-// import Footer from '../components/Footer.jsx';
 import Circle from '../components/Circle.jsx';
 import '../design/Home.css';
 import { IoPricetags } from "react-icons/io5";
@@ -9,7 +7,6 @@ import twowheeler from '../assets/twowheeler.png';
 import car from '../assets/car.png';
 import truck from '../assets/truck.png';
 import tractor from '../assets/tractor.png';
-// import mainivideo from '../assets/mainivideo.mp4';
 import mainiauto from '../assets/Brands/MainiAutoAgenciesLogo.svg';
 import HeritageExporstLogo from '../assets/Brands/HeritageExportsLogo.svg';
 import MainiAutoIncorporationLogo from '../assets/Brands/MainiAutoIncorporationLogo.svg';
@@ -19,12 +16,8 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-container">
-
-      {/* Hero Section */}
       <div className="hero">
-        {/* <Navbar /> */}
         <div className="hero-content">
-          {/* <h4 className='mb-2'>Welcome to <b><span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup Of Automobile Industry </b></h4> */}
           <h4 className='mb-2 welcome-line'>
             <span className="word animate-delay-1">Welcome</span>
             <span className="word animate-delay-2">to</span>
@@ -33,7 +26,6 @@ const Home = () => {
                 <span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup 
               </b>
             </span>
-            {/* <span className='word animate-delay-4'>Of Automobile Industry</span> */}
           </h4>
 
           <h1 className='mb-4'>Trusted Wholesaler of <br /> Genuine Vehicle Spare Parts</h1>
@@ -42,7 +34,6 @@ const Home = () => {
       </div>
 
       <div className="homepage">
-        {/* About Us Section */}
         <section className="about-section py-5 bg-white text-dark">
           <div className="container">
             <div className="row align-items-center">
@@ -185,9 +176,6 @@ const Home = () => {
             </div>
           </div>
         </section>
-
-
-        {/* Brands */}
         <section className="facility-section py-5 text-white text-center">
           <div className="container">
             <h2>Authorized Distributors</h2>
@@ -202,7 +190,6 @@ const Home = () => {
         </section>
 
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

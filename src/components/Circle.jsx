@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import '../design/Home.css';
 import compo from '../assets/Brands/compo.png';
-import exide from '../assets/Brands/exide.png';
+import exide from '/Brandpage/exide.png';
 import ipower from '../assets/Brands/ipower.png';
 import lucas from '../assets/Brands/lucas.png';
 import setcolipe from '../assets/Brands/setcolipe.png';
@@ -11,7 +11,7 @@ import texspin from '../assets/Brands/texspin.png';
 import unominda from '../assets/Brands/unominda.png';
 import valeo from '../assets/Brands/valeo.png';
 import zbehr from '../assets/Brands/zbehr.png';
-import zendurance from '../assets/Brands/zendurance.png';
+import zendurance from '/Brandpage/endurance.png';
 import zfenner from '../assets/Brands/zfenner.png';
 import zjk from '../assets/Brands/zjk.png';
 import zphilips from '../assets/Brands/zphilips.png';
@@ -19,7 +19,7 @@ import zrico from '../assets/Brands/zrico.png';
 import zrolon from '../assets/Brands/zrolon.png';
 import zsparkminda from '../assets/Brands/zsparkminda.png';
 import ztalbros from '../assets/Brands/ztalbros.png';
-import cummins from '../assets/Brands/cummins.png';
+import cummins from '/Brandpage/Cummins.png';
 import wabco from '../assets/Brands/wabco.png';
 import holset from '../assets/Brands/holset.png';
 
@@ -105,9 +105,7 @@ const Circle = () => {
                     <div className="carousel-item">
                         <img src={holset} className="img-fluid rounded shadow z-3 p-4" alt="1" />
                     </div>
-                    {/* <div className="carousel-item">
-                        <img src="https://www.w3schools.com/w3images/lights.jpg" className="img-fluid rounded shadow z-3" alt="2" />
-                    </div> */}
+            
                 </div>
             </div>
         </div >

@@ -3,9 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { BsEmojiSmileFill } from "react-icons/bs";
-// import mobilelogo from "../assets/mobilelogo.png"; 
 import logoblack from '../assets/Maini_Logo_Black.png';
-// import contactimg from '../assets/contact_image.png';
 import headcontact from '../assets/headcontact.png';
 import '../design/Home.css';
 
@@ -26,7 +24,7 @@ const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000); // hide popup after 4
+    setTimeout(() => setSubmitted(false), 4000); 
 
     setTimeout(() => {
     setFormData({
@@ -39,18 +37,10 @@ const Contact = () => {
   };
   return (
     <div className="container py-5 mt-5">
-      {/* <hr /> */}
       <h3 className="mt-5 text-center">
         <img src={headcontact} className="img-fluid" style={{height:'120px',width:'800px'}}/>
-        {/* Get in Touch With{" "}
-        <strong>
-          <span className="text-danger">M</span>aini{" "}
-          <span className="text-danger">G</span>roup
-        </strong>  */}
-        
       </h3>
       <div className="row p-3">
-        {/* Contact Info */}
         <div className="col-md-6 col-12 border rounded">
           <div className="d-flex flex-column gap-4">
             <div>
@@ -84,8 +74,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        {/* Contact Form Email Need To Changes*/}
         <div className="col-md-6 col-12 border rounded py-3">
           <iframe name="hidden_iframe" style={{ display: "none" }}></iframe>
           <form

@@ -17,13 +17,10 @@ const ngpages = [
 const NewsGallery = () => {
     const [selectedPage, setSelectedPage] = useState(ngpages[0]);
     const SelectedComponent = selectedPage.page;
-    
+
 
     return (
         <div className="container my-5 pt-5">
-            {/* <hr /> */}
-
-            {/* Buttons for Page Selection */}
             <div className="d-flex justify-content-center mb-4 gap-3 flex-wrap mt-5">
                 {ngpages.map(({ name }, index) => (
                     <button
@@ -35,8 +32,6 @@ const NewsGallery = () => {
                     </button>
                 ))}
             </div>
-
-            {/* Selected Page Component Display */}
             <div className="mx-auto d-flex justify-content-center bg-light border-start rounded-2 min-vh-50 p-3">
                 <SelectedComponent />
             </div>

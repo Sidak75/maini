@@ -14,9 +14,7 @@ const About = () => {
     return (
         <div>
             <div className="container my-5 pt-5">
-                {/* <hr /> */}
                 <div className="row align-items-center justify-content-center mt-5 pt-3">
-                    {/* <hr className='m-3 mt-5' /> */}
                     <div className=' col-md-6 mb-4'>
                         <h2 className="fw-bold text-center"><span className='text-danger'>A</span>bout <span className='text-danger'>M</span>aini <span className='text-danger'>G</span>roup</h2>
                         <h3 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">
@@ -55,7 +53,6 @@ const About = () => {
                     
                     <h3 className="text-center fw-bold mt-4">Our Achivement</h3>
                     <div className="achievement-section py-5">
-                        {/* <h3 className="text-center text-white mb-4">What We Achieve</h3> */}
                         <div className="container">
                             <div className="row justify-content-center text-center g-4">
                                 <div className="col-6 col-md-3 mb-3">

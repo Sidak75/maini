@@ -5,7 +5,6 @@ html, body {
 }
 
 .home-container {
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-family: 'Arial',sans-serif;
 }
 
@@ -188,8 +187,9 @@ html, body {
   margin: -40px;
   border-radius: 20px;
   /* background: linear-gradient(rgb(250, 250, 250),transparent); */
-  background: rgba(250, 250, 250,0.9);
-  box-shadow: 0 0 2px #61dafb;
+  /* background: rgba(250, 250, 250,0.9); */
+  background: #fff;
+  /* box-shadow: 0 0 2px #61dafb; */
 }
 
 @media (max-width: 768px) {

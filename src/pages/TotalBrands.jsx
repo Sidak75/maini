@@ -2,12 +2,12 @@ import '../design/Brandpage.css';
 
 const Brands = {
   'All Brands': [
-    ['Cummins', 'Cummins_logo_CC.png', <i className="fa-solid fa-truck"></i>],
+    ['Cummins', 'Cummins.png', <i className="fa-solid fa-truck"></i>],
     ['Wheels India', 'Wheels-India-Limited.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
     ['Holset', 'Holset.png', <i className="fa-solid fa-truck"></i>],
     ['Setco Lipe', 'Setco_logo.png', <i className="fa-solid fa-truck"></i>],
     ['Bosch', 'bosch.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
-    ['Exide Battery', 'Exide.png', null],
+    ['Exide Battery', 'exide.png', null],
     ['Wabco', 'wabco.png', <i className="fa-solid fa-truck"></i>],
     ['Gates', 'gates.png', [<i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
     ['Fenner', 'fenner.png', [<i className="fa-solid fa-motorcycle"></i>, <i className="fa-solid fa-car"></i>, <i className="fa-solid fa-truck"></i>]],
@@ -66,9 +66,6 @@ const TotalBrands = () => {
         All brands..
       </div>
       <hr className="my-3" style={{ borderWidth: '2px' }} />
-
-
-      {/* <h2 className='fw-bold my-4 pt-4 text-danger'>All Brands.</h2> */}
       <div className="row">
         {visibleBrands.map(([name, logo, icons], idx) => (
           <div key={idx} className="col-6 col-sm-4 col-md-3 mb-4">
