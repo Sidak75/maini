@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as  Routes, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/maini">
       <ScrollToTop/>
       <Navbar />
       <Routes>
@@ -25,7 +25,7 @@ function App() {
         <Route path="/career" element={<Career />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
