@@ -82,8 +82,6 @@ const TotalBrands = () => {
               <div className="d-flex justify-content-end fs-5 gap-2" style={{ marginRight: '5px'}}>
                 {icons}
               </div>
-
-
             </div>
           </div>
         ))}
