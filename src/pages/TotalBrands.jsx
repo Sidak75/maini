@@ -71,7 +71,7 @@ const TotalBrands = () => {
           <div key={idx} className="col-6 col-sm-4 col-md-3 mb-4">
             <div className="card h-100 border-1 shadow-sm text-center py-4 px-1 rounded-4">
               <img
-                src={`/Brandpage/${logo}`}
+                src={`${import.meta.env.BASE_URL}Brandpage/${logo}`}
                 alt={name}
                 className="img-fluid mx-auto"
                 style={{ maxHeight: '60px', objectFit: 'contain' }}
