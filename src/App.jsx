@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename="/maini">
+    <BrowserRouter>
       <ScrollToTop />
       <Navbar />
       <Routes>
