@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import '../design/Home.css';
 import compo from '../assets/Brands/compo.png';
-import exide from '/Brandpage/exide.png';
+import exide from '/Brandpage/Exide.png';
 import ipower from '../assets/Brands/ipower.png';
 import lucas from '../assets/Brands/lucas.png';
 import setcolipe from '../assets/Brands/setcolipe.png';
